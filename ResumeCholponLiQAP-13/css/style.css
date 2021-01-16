@@ -1,0 +1,151 @@
+body, img, h1, h3, section, hr, ul, li, i, .col-2, .col-10, p {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    box-shadow: 0.4em 0.4em 5px rgba(0,121,191,0.3);
+}
+
+
+/*Левая часть (общая информация)*/
+div.col-md-3 {
+    background-color: #0079BF;
+}
+
+img {
+    margin: 55px 50px 50px 20px;
+}
+
+hr {
+    color: #FFF;
+    background-color: #FFF;
+    margin-top: 30px;
+}
+
+ul {
+    margin: 50px 0 30px 0;
+}
+
+li {
+    list-style: none;
+    font-size: medium;
+    color: #FFF;
+}
+
+#email {
+    font-size: small;
+}
+
+#personal_info ul li i{
+    margin-left: 10px;
+}
+
+#personal_info ul li {
+    margin-left: 15px;
+}
+
+#my_skills {
+    margin-bottom: 120px;
+}
+
+#my_skills h3 {
+    color: #FFF;
+    margin: 120px 0 30px 20px;
+}
+
+#my_skills span i {
+    font-size: medium;
+    margin-left: 15px;
+}
+
+#my_skills p {
+    color: #FFF;
+    font-size: larger;
+    margin-left: 10px;
+}
+
+h5 {
+    color: #FFF;
+    font-style: italic;
+    margin: 120px 0 30px 20px;
+}
+
+#my_hobbies {
+    padding-bottom: 120px;
+}
+
+#my_hobbies p i {
+    margin-left: 15px;
+    font-size: medium;
+}
+
+#my_hobbies p {
+    color: #FFF;
+    font-size: medium;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+
+
+
+/*Правая часть (основная информация)*/
+h1 {
+    margin: 70px 0 20px 50px;
+    color: #e079bf;
+    text-shadow: 1px 1px 2px #0079BF; 
+}
+
+q {
+    margin-top: 20px;
+    padding-left: 100px;
+    text-align: right;
+    font-style: italic;
+}
+
+hr.blue {
+    color: #0079BF;
+    background-color: #0079BF;
+    margin-top: 70px;
+}
+
+h3.blues {
+    color: #0079BF;
+    margin-top: 15px;
+    padding: 20px 0 20px 25px;
+}
+
+.blues span i {
+    padding-right: 10px;
+}
+
+#work_experience, #education, #courses {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+p {
+    margin-top: 5px;
+}
+
+p.date {
+    text-align: center;
+}
+
+
+/*Панель навигации*/
+a {
+    color:#0079BF;
+    font-size: medium;
+}
+
+a:hover {
+    color: #e079bf;
+}
+
+p.author {
+    font-size: xx-small;
+    text-align: right;
+    margin-bottom: 10px;
+}
