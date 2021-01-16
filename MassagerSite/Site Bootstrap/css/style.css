@@ -1,0 +1,49 @@
+html,
+body,
+header,
+img,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url(../img/header1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #413f54;
+}
+
+@media (max-width: 768 px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #413f54;
+    }
+}
+
+.btn.btn-outline-white {
+    margin-top: 2px;
+}
+
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.carousel-inner {
+    transition-duration: 5s;
+}
+
+.carousel-inner .carousel-item {
+    transition-duration: 1.7s; 
+}
