@@ -1,0 +1,44 @@
+    body {}
+    
+    .container {
+        background-color: #992BC4;
+    }
+    
+    .row {
+        height: 750px;
+    }
+    
+    p {
+        font-family: 'Righteous', cursive;
+        font-size: 2em;
+        color: #74E600;
+        text-align: center;
+    }
+    
+    button.btn {
+        display: block;
+        font-family: 'Righteous', cursive;
+        font-size: 3rem!important;
+        box-shadow: 5px 5px rgb(62, 28, 117);
+    }
+    
+    span#field a,
+    span#field a i.fa fa-frown {
+        display: block;
+        font-family: 'Righteous', cursive;
+        font-size: 2em;
+        color: #74E600;
+        visibility: hidden;
+        text-decoration: none;
+        padding-right: 100px;
+    }
+    
+    span#field a:hover,
+    span#field a i.fa fa-frown:hover {
+        color: red;
+    }
+    
+    span#field a:visited,
+    span#field a i.fa fa-frown:visited {
+        color: red;
+    }
