@@ -47,3 +47,8 @@ img,
 .carousel-inner .carousel-item {
     transition-duration: 1.7s; 
 }
+
+#author {
+    padding-top: 10px;
+    text-align: right;
+}
