@@ -1,5 +1,3 @@
-import time
-
 import pytest
 import requests
 from pom.homepage_nav import HomepageNav
