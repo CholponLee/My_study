@@ -2,7 +2,8 @@
 
 
 # Home Page Navigation Links
-NAV_LINK_TEXT = 'TOP Fashion, Premium, Ozon Travel, Ozon Счёт, LIVE, SALE, Бренды, Магазины, Сертификаты, Электроника, ' \
+NAV_LINK_TEXT = 'TOP Fashion, Premium, Ozon Travel, Ozon Счёт, LIVE, Акции, Бренды, Магазины, Сертификаты, ' \
+                'Электроника, ' \
                 'Одежда и обувь, Детские товары, Дом и сад, Зона лучших цен'
 ERROR_NAV_LINK_TEXT = 'Fashion, Premium, Travel, Счёт, LIVE, Акции, Бренды, Магазины, Сертификаты, Электроника, ' \
                       'Одежда и обувь, Детские товары, Дом и сад, Зона лучших цен'
@@ -14,7 +15,7 @@ TOPFASHION_PAGE_TITLE_TEXT = 'TOP Fashion'
 ERROR_TOPFASHION_PAGE_TITLE_TEXT = 'Top Fashion'
 
 
-PREMIUM_PAGE_TITLE_TEXT = 'Подписка на кешбэк, бесплатную доставку, кино, курсы и ранний доступ к распродажам'
+PREMIUM_PAGE_TITLE_TEXT = 'Мартовская распродажа уже идет'
 ERROR_PREMIUM_PAGE_TITLE_TEXT = 'Подписка на кешбэк, бесплатную доставку, кино и курсы'
 
 
@@ -22,19 +23,19 @@ OZONTRAVEL_PAGE_TITLE_TEXT = 'Поиск дешёвых авиабилетов'
 ERROR_OZONTRAVEL_PAGE_TITLE_TEXT = 'Поиск дешёвых билетов'
 
 
-OZONACCOUNT_PAGE_TEXT = 'Преимущества Счёта'
+OZONACCOUNT_PAGE_TEXT = 'Помощь'
 ERROR_OZONACCOUNT_PAGE_TEXT = 'Плати Ozon Счётом'
 
 
-OZONLIVE_IMAGE_ATTRIBUTE = 'min-height: 20px; background-size: contain; ' \
-                           'background-image: url("https://cdn1.ozone.ru/s3/cms/8f/t73/wc1500/ozon-live-logo.svg"); ' \
-                           'background-position: left top;'
+OZONLIVE_IMAGE_ATTRIBUTE = 'style="min-height:20px;background-size:contain;background-image:' \
+                           'url(https://cdn1.ozone.ru/s3/cms/8f/t73/wc1500/ozon-live-logo.svg);' \
+                           'background-position:left top;"'
 ERROR_OZONLIVE_IMAGE_ATTRIBUTE = 'min-height: 20px; background-size: contain; background-image: ' \
                                  'url("https://cdn1.ozone.ru/ozon-live-logo.svg"); ' \
                                  'background-position: left top;'
 
 
-SALE_PAGE_TEXT = 'Успей купить!'
+SALE_PAGE_TEXT = 'Акции и спецпредложения'
 ERROR_SALE_PAGE_TEXT = 'Акции'
 
 BRANDS_PAGE_TITLE_TEXT = 'Все бренды'
@@ -62,8 +63,8 @@ ERROR_CHILDRENGOODS_PAGE_TITLE_TEXT = 'Детские товаы'
 HOME_PAGE_TITLE_TEXT = 'Дом и сад'
 ERROR_HOME_PAGE_TITLE_TEXT = 'Все для дома'
 
-BESTPRICE_PAGE_TITLE_TEXT = 'Зона лучших цен!'
-ERROR_BESTPRICE_PAGE_TITLE_TEXT = 'Зона лучших цен'
+# BESTPRICE_PAGE_TITLE_TEXT = 'Зона лучших цен!'
+# ERROR_BESTPRICE_PAGE_TITLE_TEXT = 'Зона лучших цен'
 
 
 
